@@ -1,9 +1,9 @@
 {
-  "name": "tunely",
+  "name": "furniture-app",
   "version": "1.0.31A",
-  "homepage": "https://github.com/sf-wdi-31/tunely-angular",
+  "homepage": "https://github.com/kenny-vo/furniture-app",
   "authors": [
-    "GA SF WDI"
+    "Kenny"
   ],
   "license": "MIT",
   "ignore": [

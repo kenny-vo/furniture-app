@@ -1,5 +1,5 @@
 angular
-  .module('furnitureApp')
+  .module('furniture-app')
   .controller('FurnituresIndexController', FurnituressIndexController);
 
 FurnituresIndexController.$inject = ['$http'];

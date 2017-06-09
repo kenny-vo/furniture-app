@@ -5,7 +5,7 @@
  */
 
 angular
-  .module('tunely', ['ngRoute'])
+  .module('furniture-app', ['ngRoute'])
   .config(config);
 
 config.$inject = ['$routeProvider', '$locationProvider'];
@@ -14,18 +14,13 @@ function config ($routeProvider, $locationProvider) {
   $routeProvider
     .when('/', {
       templateUrl: '/templates/albums',
-      controllerAs: 'albumsIndexCtrl',
-      controller: 'AlbumsIndexController'
+      controllerAs: 'furnituresIndexCtrl',
+      controller: 'FurnituresIndexController'
     })
-    .when('/albums', {
-      templateUrl: '/templates/albums',
-      controllerAs: 'albumsIndexCtrl',
-      controller: 'AlbumsIndexController'
-    })
-    .when('/albums/:id', {
-      templateUrl: '/templates/albums-show',
-      controllerAs: 'albumsShowCtrl',
-      controller: 'AlbumsShowController'
+    .when('/furnitures', {
+      templateUrl: '/templates/furnitures',
+      controllerAs: 'furnituresIndexCtrl',
+      controller: 'FurnituresIndexController'
     })
 
     $locationProvider.html5Mode({

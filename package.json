@@ -1,7 +1,7 @@
 {
-  "name": "tunely",
+  "name": "furniture-app",
   "version": "1.0.31A",
-  "description": "An app for tracking your music collection",
+  "description": "An app for tracking your furniture items",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/sf-wdi-31/tunely-angular.git"
+    "url": "https://github.com/kenny-vo/furniture-app"
   },
-  "author": "GA SF WDI",
+  "author": "Kenny",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sf-wdi-31/tunely-angular/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/sf-wdi-31/tunely-angular#readme",
+  "homepage": "https://github.com/kenny-vo/furniture-app",
   "dependencies": {
     "body-parser": "^1.15.2",
     "bower": "^1.7.9",
