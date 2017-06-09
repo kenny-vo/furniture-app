@@ -1,5 +1,5 @@
 angular
-  .module('tunely')
+  .module('furnitureApp')
   .controller('FurnituresIndexController', FurnituressIndexController);
 
 FurnituresIndexController.$inject = ['$http'];
