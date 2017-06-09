@@ -12,6 +12,7 @@ furnitureList.push({
                 price: 39,
                 link: 'http://www.ikea.com/us/en/catalog/products/S19889748/',
                 photo: 'http://www.ikea.com/us/en/images/products/vilmar-chair-white__0214682_PE370791_S4.JPG'
+              });
 furnitureList.push({
                 name: 'Black Modern Floor Lamp',
                 price: 235,
@@ -28,7 +29,7 @@ furnitureList.push({
 
 db.Furniture.remove({}, function(err, furnitures){
 
-  db.furniture.create(furnitureList, function(err, furnitures){
+  db.Furniture.create(furnitureList, function(err, furnitures){
     if (err) { return console.log('ERROR', err); }
     console.log("all furnitures:", furnitures);
     console.log("created", furnitures.length, "furnitures");
